@@ -39,17 +39,17 @@ export function Contact() {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+1 (234) 567-890", "+1 (234) 567-891"],
+      details: ["+27 21 123 4567", "+27 21 123 4568"],
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["contact@blackwellattorneys.com", "info@blackwellattorneys.com"],
+      details: ["contact@blackwellattorneys.co.za", "info@blackwellattorneys.co.za"],
     },
     {
       icon: MapPin,
       title: "Address",
-      details: ["123 Legal Street, Suite 500", "New York, NY 10001"],
+      details: ["123 Long Street, Suite 500", "Cape Town, 8001"],
     },
     {
       icon: Clock,
@@ -157,7 +157,7 @@ export function Contact() {
                         value={formData.phone}
                         onChange={handleChange}
                         className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-bronze focus:ring-2 focus:ring-bronze/20 outline-none transition-colors"
-                        placeholder="+1 (234) 567-890"
+                        placeholder="+27 21 123 4567"
                       />
                     </div>
                   </div>
@@ -247,7 +247,7 @@ export function Contact() {
                 <div className="text-center text-gray-500">
                   <MapPin className="size-12 mx-auto mb-2" />
                   <p>Interactive Map</p>
-                  <p className="text-sm">123 Legal Street, New York, NY 10001</p>
+                  <p className="text-sm">123 Long Street, Cape Town, 8001</p>
                 </div>
               </div>
             </motion.div>

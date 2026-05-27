@@ -284,9 +284,9 @@ export function Privacy() {
                 </p>
                 <div className="text-gray-700">
                   <p className="mb-2"><strong>Privacy Officer</strong></p>
-                  <p>Email: privacy@blackwellattorneys.com</p>
-                  <p>Phone: (555) 123-4567</p>
-                  <p>Address: 123 Legal Street, Law City, LC 12345</p>
+                  <p>Email: privacy@blackwellattorneys.co.za</p>
+                  <p>Phone: +27 21 123 4567</p>
+                  <p>Address: 123 Long Street, Cape Town, 8001</p>
                 </div>
               </div>
             </div>

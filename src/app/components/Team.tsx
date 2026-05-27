@@ -9,7 +9,7 @@ export function Team() {
       specialty: "Corporate Law",
       image: "https://images.unsplash.com/photo-1662104935541-aa5b6e02886d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&h=800",
       bio: "With over 20 years of experience in corporate law, Sarah leads our M&A practice and has successfully closed deals worth over $2 billion.",
-      email: "s.mitchell@blackwellattorneys.com",
+      email: "s.mitchell@blackwellattorneys.co.za",
       linkedin: "#",
     },
     {
@@ -18,7 +18,7 @@ export function Team() {
       specialty: "Intellectual Property",
       image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&h=800",
       bio: "A former patent examiner, James brings deep technical expertise to IP matters. He holds a Ph.D. in Electrical Engineering and has secured over 500 patents for clients.",
-      email: "j.chen@blackwellattorneys.com",
+      email: "j.chen@blackwellattorneys.co.za",
       linkedin: "#",
     },
     {
@@ -27,7 +27,7 @@ export function Team() {
       specialty: "Family Law",
       image: "https://images.unsplash.com/photo-1604904612715-47bf9d9bc670?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&h=800",
       bio: "Maria's compassionate approach and fierce advocacy have helped hundreds of families through difficult transitions. She specializes in complex custody and high-net-worth divorces.",
-      email: "m.rodriguez@blackwellattorneys.com",
+      email: "m.rodriguez@blackwellattorneys.co.za",
       linkedin: "#",
     },
     {
@@ -36,7 +36,7 @@ export function Team() {
       specialty: "Criminal Defense",
       image: "https://images.unsplash.com/photo-1662104935762-707db0439ecd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&h=800",
       bio: "A former prosecutor with a 95% acquittal rate, Michael is known for his aggressive trial tactics and unwavering commitment to protecting clients' rights.",
-      email: "m.obrien@blackwellattorneys.com",
+      email: "m.obrien@blackwellattorneys.co.za",
       linkedin: "#",
     },
     {
@@ -45,7 +45,7 @@ export function Team() {
       specialty: "Employment Law",
       image: "https://images.unsplash.com/photo-1733348137479-2e726d326d9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&h=800",
       bio: "Emily represents both employers and employees in complex workplace disputes. She's recognized for her innovative approaches to conflict resolution.",
-      email: "e.thompson@blackwellattorneys.com",
+      email: "e.thompson@blackwellattorneys.co.za",
       linkedin: "#",
     },
     {
@@ -54,7 +54,7 @@ export function Team() {
       specialty: "Real Estate Law",
       image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&h=800",
       bio: "David has facilitated over $500 million in commercial and residential real estate transactions. His expertise includes zoning, development, and property disputes.",
-      email: "d.nkosi@blackwellattorneys.com",
+      email: "d.nkosi@blackwellattorneys.co.za",
       linkedin: "#",
     },
     {
@@ -63,7 +63,7 @@ export function Team() {
       specialty: "Immigration Law",
       image: "https://images.unsplash.com/photo-1736939623985-90002e1f48c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&h=800",
       bio: "Fluent in five languages, Amara helps individuals and families navigate complex immigration matters with cultural sensitivity and expert knowledge.",
-      email: "a.okafor@blackwellattorneys.com",
+      email: "a.okafor@blackwellattorneys.co.za",
       linkedin: "#",
     },
     {
@@ -72,7 +72,7 @@ export function Team() {
       specialty: "Tax Law",
       image: "https://images.unsplash.com/photo-1585846416120-3a7354ed7d39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&h=800",
       bio: "A certified public accountant and attorney, Robert provides comprehensive tax planning and dispute resolution services for businesses and high-net-worth individuals.",
-      email: "r.vanderberg@blackwellattorneys.com",
+      email: "r.vanderberg@blackwellattorneys.co.za",
       linkedin: "#",
     },
   ];
@@ -244,11 +244,11 @@ export function Team() {
             If you're passionate about delivering exceptional legal services, we'd love to hear from you.
           </p>
           <a
-            href="mailto:careers@blackwellattorneys.com"
+            href="mailto:careers@blackwellattorneys.co.za"
             className="inline-flex items-center gap-2 bg-bronze text-white px-8 py-4 rounded-full hover:bg-bronze-dark transition-colors"
           >
             <Mail className="size-5" />
-            careers@blackwellattorneys.com
+            careers@blackwellattorneys.co.za
           </a>
         </div>
       </section>

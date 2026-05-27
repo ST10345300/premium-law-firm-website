@@ -203,9 +203,9 @@ export function Terms() {
               any points and ensure you understand your rights and obligations.
             </p>
             <p className="text-sm text-gray-600">
-              <strong>Email:</strong> legal@blackwellattorneys.com<br />
-              <strong>Phone:</strong> (555) 123-4567<br />
-              <strong>Address:</strong> 123 Legal Street, Law City, LC 12345
+              <strong>Email:</strong> legal@blackwellattorneys.co.za<br />
+              <strong>Phone:</strong> +27 21 123 4567<br />
+              <strong>Address:</strong> 123 Long Street, Cape Town, 8001
             </p>
           </motion.div>
         </div>

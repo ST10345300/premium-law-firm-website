@@ -63,7 +63,7 @@ export function ChatBot() {
 
     // Consultation/Appointment
     if (message.match(/consult|appointment|book|schedule|meet/)) {
-      return "I'd be happy to help you schedule a consultation! You can:\n\n1. Call us at (555) 123-4567\n2. Email us at legal@blackwellattorneys.com\n3. Visit our Contact page to fill out a form\n\nOur consultations typically last 30-60 minutes. Would you like me to provide more details about the consultation process?";
+      return "I'd be happy to help you schedule a consultation! You can:\n\n1. Call us at +27 21 123 4567\n2. Email us at legal@blackwellattorneys.co.za\n3. Visit our Contact page to fill out a form\n\nOur consultations typically last 30-60 minutes. Would you like me to provide more details about the consultation process?";
     }
 
     // Pricing/Fees
@@ -93,12 +93,12 @@ export function ChatBot() {
 
     // Hours/Location
     if (message.match(/hour|open|location|address|where/)) {
-      return "📍 Location: 123 Legal Street, Suite 500, New York, NY 10001\n\n⏰ Hours:\nMonday - Friday: 9:00 AM - 6:00 PM\nSaturday: 10:00 AM - 2:00 PM\nSunday: Closed\n\nEmergency consultations available 24/7. How can I assist you further?";
+      return "📍 Location: 123 Long Street, Suite 500, Cape Town, 8001\n\n⏰ Hours:\nMonday - Friday: 9:00 AM - 6:00 PM\nSaturday: 10:00 AM - 2:00 PM\nSunday: Closed\n\nEmergency consultations available 24/7. How can I assist you further?";
     }
 
     // Contact
     if (message.match(/contact|email|phone|call|reach/)) {
-      return "You can reach us at:\n\n📞 Phone: (555) 123-4567\n📧 Email: legal@blackwellattorneys.com\n📍 Address: 123 Legal Street, Suite 500, New York, NY 10001\n\nOur team typically responds within 24 hours. Would you like to leave a message?";
+      return "You can reach us at:\n\n📞 Phone: +27 21 123 4567\n📧 Email: legal@blackwellattorneys.co.za\n📍 Address: 123 Long Street, Suite 500, Cape Town, 8001\n\nOur team typically responds within 24 hours. Would you like to leave a message?";
     }
 
     // Experience

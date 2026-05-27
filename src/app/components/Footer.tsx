@@ -63,18 +63,18 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
                 <MapPin className="size-5 text-bronze flex-shrink-0 mt-0.5" />
-                <span>123 Legal Street, Suite 500<br />New York, NY 10001</span>
+                <span>123 Long Street, Suite 500<br />Cape Town, 8001</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="size-5 text-bronze flex-shrink-0" />
-                <a href="tel:+1234567890" className="hover:text-bronze transition-colors">
-                  +1 (234) 567-890
+                <a href="tel:+27211234567" className="hover:text-bronze transition-colors">
+                  +27 21 123 4567
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="size-5 text-bronze flex-shrink-0" />
-                <a href="mailto:contact@blackwellattorneys.com" className="hover:text-bronze transition-colors">
-                  contact@blackwellattorneys.com
+                <a href="mailto:contact@blackwellattorneys.co.za" className="hover:text-bronze transition-colors">
+                  contact@blackwellattorneys.co.za
                 </a>
               </li>
             </ul>
