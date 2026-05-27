@@ -2,6 +2,7 @@ import { Link } from "react-router";
 import { Building2, Users, Scale, Gavel, ArrowRight, CheckCircle, Star } from "lucide-react";
 import { motion } from "motion/react";
 import { useLanguage } from "../context/LanguageContext";
+import ladyJustice from "../../assets/lady-justice.png";
 
 export function Home() {
   const { t } = useLanguage();
@@ -134,12 +135,12 @@ export function Home() {
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
-                className="relative h-full flex items-center justify-center"
+                className="relative h-full flex items-end justify-start"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1687289133469-b2a07a13b78b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&h=1000"
-                  alt="Professional legal excellence and justice"
-                  className="h-[500px] w-auto object-contain relative z-10"
+                  src={ladyJustice}
+                  alt="Lady Justice statue with scales and sword"
+                  className="h-[380px] w-auto object-contain relative z-0 -ml-4 lg:-ml-8 -mb-4"
                 />
 
                 {/* Floating Service Icons */}
