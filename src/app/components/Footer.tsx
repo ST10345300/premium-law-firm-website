@@ -83,7 +83,18 @@ export function Footer() {
 
         <div className="border-t border-gray-800 pt-8 text-sm text-gray-400">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p>&copy; 2026 Blackwell Attorneys. All rights reserved.</p>
+            <p>
+              &copy; 2026 Blackwell Attorneys. All rights reserved. Designed by{" "}
+              <a
+                href="https://www.anchornoirstudios.co.za/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-bronze hover:underline"
+              >
+                Anchor Noir Studios
+              </a>
+              .
+            </p>
             <div className="flex gap-6">
               <Link to="/privacy" className="hover:text-bronze transition-colors">Privacy Policy</Link>
               <Link to="/terms" className="hover:text-bronze transition-colors">Terms & Conditions</Link>
