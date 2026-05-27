@@ -276,7 +276,7 @@ export function Home() {
               transition={{ duration: 0.6 }}
             >
               <img
-                src="https://images.unsplash.com/photo-1595846416120-3a7354ed7d39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200"
+                src="https://images.unsplash.com/photo-1521791136064-7986c2920216?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200"
                 alt="Professional legal consultation meeting"
                 className="w-full h-auto rounded-2xl shadow-xl"
               />
