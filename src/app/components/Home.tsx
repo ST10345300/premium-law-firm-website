@@ -61,7 +61,7 @@ export function Home() {
   return (
     <div className="bg-white">
       {/* Hero Section - Card-based design with gold gradient background */}
-      <section className="relative min-h-screen overflow-hidden p-8 lg:p-16" style={{ background: 'linear-gradient(to bottom right, #B8922A, #9B7935, #8B6914)' }}>
+      <section className="relative min-h-screen overflow-hidden p-4 sm:p-8 lg:p-16" style={{ background: 'linear-gradient(to bottom right, #B8922A, #9B7935, #8B6914)' }}>
         {/* Decorative elements */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,255,255,0.1),transparent_70%)]"></div>
 
@@ -72,15 +72,15 @@ export function Home() {
           transition={{ duration: 0.8 }}
           className="relative max-w-7xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden"
         >
-          <div className="grid lg:grid-cols-2 gap-0 items-stretch min-h-[700px]">
+          <div className="grid lg:grid-cols-2 gap-0 items-stretch min-h-[600px] lg:min-h-[700px]">
             {/* Left Content */}
-            <div className="p-8 lg:p-16 flex flex-col justify-between">
+            <div className="p-6 sm:p-8 lg:p-16 flex flex-col justify-between">
               <div>
                 <motion.h1
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 0.2 }}
-                  className="text-5xl lg:text-6xl mb-6 text-gray-900 leading-tight"
+                  className="text-3xl sm:text-4xl lg:text-6xl mb-6 text-gray-900 leading-tight"
                 >
                   {t("home.hero.title1")}<br />{t("home.hero.title2")}<br />
                   <span className="text-bronze">{t("home.hero.title3")}</span>
@@ -129,32 +129,32 @@ export function Home() {
             </div>
 
             {/* Right Content - Image and Service Icons */}
-            <div className="relative bg-gradient-to-br from-amber-50 to-white p-8 lg:p-12" style={{ backgroundImage: 'linear-gradient(to bottom right, #F5EFE0, #ffffff)' }}>
+            <div className="relative bg-gradient-to-br from-amber-50 to-white p-6 sm:p-8 lg:p-12 min-h-[420px] lg:min-h-0" style={{ backgroundImage: 'linear-gradient(to bottom right, #F5EFE0, #ffffff)' }}>
               {/* Lady Justice Image */}
               <motion.div
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
-                className="relative h-full flex items-end justify-start"
+                className="relative h-full flex items-end justify-center lg:justify-start"
               >
                 <img
                   src={ladyJustice}
                   alt="Lady Justice statue with scales and sword"
-                  className="h-[380px] w-auto object-contain relative z-0 -ml-4 lg:-ml-8 -mb-4"
+                  className="h-[260px] sm:h-[320px] lg:h-[380px] w-auto object-contain relative z-0 lg:-ml-8 -mb-4"
                 />
 
                 {/* Floating Service Icons */}
-                <div className="absolute top-8 right-8 flex gap-3">
+                <div className="absolute top-2 right-2 sm:top-8 sm:right-8 flex gap-2 sm:gap-3">
                   {serviceIcons.map((service, index) => (
                     <motion.div
                       key={service.label}
                       initial={{ opacity: 0, scale: 0.8 }}
                       animate={{ opacity: 1, scale: 1 }}
                       transition={{ duration: 0.5, delay: 0.5 + index * 0.1 }}
-                      className="w-12 h-12 rounded-full bg-white border-2 border-bronze flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
+                      className="w-9 h-9 sm:w-12 sm:h-12 rounded-full bg-white border-2 border-bronze flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
                       title={service.label}
                     >
-                      <service.icon className="size-6 text-bronze" />
+                      <service.icon className="size-4 sm:size-6 text-bronze" />
                     </motion.div>
                   ))}
                 </div>
@@ -164,7 +164,7 @@ export function Home() {
                   initial={{ opacity: 0, x: 20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.6, delay: 0.6 }}
-                  className="absolute top-24 right-8 space-y-3"
+                  className="hidden sm:block absolute top-24 right-8 space-y-3"
                 >
                   {services.map((service, index) => (
                     <div
@@ -182,7 +182,7 @@ export function Home() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 0.7 }}
-                  className="absolute bottom-8 right-8 flex gap-8"
+                  className="absolute bottom-2 right-2 sm:bottom-8 sm:right-8 flex gap-4 sm:gap-8 bg-white/80 backdrop-blur-sm rounded-lg px-3 py-2 sm:bg-transparent sm:backdrop-blur-none sm:p-0"
                 >
                   <div className="text-center">
                     <div className="text-sm text-gray-600 mb-1">{t("home.stats.cases").split(' ')[0]}<br />{t("home.stats.cases").split(' ')[1]}</div>

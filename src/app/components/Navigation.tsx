@@ -29,7 +29,7 @@ export function Navigation() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
             <Scale className="size-8 text-bronze" strokeWidth={1.5} />
-            <span className="text-2xl font-serif text-gray-900 tracking-tight">BLACKWELL ATTORNEYS</span>
+            <span className="text-lg sm:text-xl lg:text-2xl font-serif text-gray-900 tracking-tight whitespace-nowrap">BLACKWELL ATTORNEYS</span>
           </Link>
 
           {/* Desktop Navigation */}
